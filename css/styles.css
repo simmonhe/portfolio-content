@@ -69,6 +69,12 @@ p {
 	
 }
 
+@media (prefers-reduced-motion: reduce) {
+	header img {
+	  animation: none;
+	}
+  }
+
 @keyframes fadeInAnimation {
 	0% {
 	  opacity: 0;
@@ -78,12 +84,16 @@ p {
 	}
   }
 
-.about_img {
-    animation: fadeInAnimation;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-duration: 3s;
-}
+  @media (prefers-reduced-motion: no-preference){
+	.about_img {
+		animation: fadeInAnimation;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+		animation-duration: 3s;
+	}
+  }
+
+
 
 
 
@@ -298,7 +308,7 @@ body{
 }
 
 
-.navbar>.container{
+.container{
 	display:flex;
 	-ms-flex-wrap:wrap;
 	flex-wrap:wrap;
