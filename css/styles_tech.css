@@ -10,7 +10,7 @@
 }
 
 
-.div4 { grid-area: 4 / 1 / 5 / 2; }
+footer { grid-area: 4 / 1 / 5 / 2; }
 
 header{
 	grid-area: 1 / 1 / 2 / 2;
