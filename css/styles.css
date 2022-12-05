@@ -316,10 +316,10 @@ body{
 }
 
 .home_h2{
-	color: white;
+	
 	line-height: 1.45;
-    font-weight: bold;
-    font-size: 2em;
+    	font-weight: bold;
+    	font-size: 2em;
 	position: relative;
 	text-align: center;
 }
