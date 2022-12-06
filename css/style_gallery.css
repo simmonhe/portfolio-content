@@ -169,12 +169,12 @@ li a:hover {
 
 li a.active {
 	background-color: #fed400;
-	color: white;
+
   }
   
 li a:hover:not(.active) {
 	background-color: #555;
-	color: white;
+
 }
 
  
@@ -221,10 +221,12 @@ figcaption{
     margin:1px;
 }
 
-@media all and (max-width: 700px){
+
+
+@media all and (max-width: 500px){
   .navbar>.container{
 		justify-content: center;
-    padding-top: 0%;
+    /* padding-top: 0%; */
 	}
 
 
@@ -237,7 +239,7 @@ figcaption{
 	}
 	
   li{
-    height: 10%;
+    padding-top: 3%;
   }
 	li a {
 		display: block;
