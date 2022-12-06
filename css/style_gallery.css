@@ -67,7 +67,7 @@ h1 {
 }
 
 .jumbotron h2 span {
-  color:#ffc200;
+  color:#bb8e00;
 }
 
 .jumbotron p {
@@ -169,12 +169,12 @@ li a:hover {
 
 li a.active {
 	background-color: #fed400;
-
+  color: black;
   }
   
 li a:hover:not(.active) {
 	background-color: #555;
-
+  color: white;
 }
 
  
