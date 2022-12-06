@@ -51,3 +51,9 @@ body {
 	padding-bottom: 2%;
   }
   
+
+button{
+	margin-bottom: 5px;
+	flex-basis: 200px;
+	font-size:125%;
+}
