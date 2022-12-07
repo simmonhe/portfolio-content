@@ -102,10 +102,6 @@ p {
 	}
   }
 
-
-
-
-
 .grid-container {
 	display: grid;
 	grid-template: 200px 200px 200px / 1fr 1fr;
@@ -118,6 +114,7 @@ p {
 	 grid-area: 1 / 1 / 4 / 2;
 	 color: #000;
 	 overflow: scroll;
+	 tabindex: 0;
 }
 
 p.div1{
@@ -354,6 +351,12 @@ body{
 	border-color: #fed400;
 	 
 	position: relative;
+}
+
+figcaption {
+	font-style: italic;
+	padding: 2px;
+	text-align: center;
 }
 
 footer {
