@@ -44,12 +44,12 @@ h1 {
   margin-left: 50px;
 }
 
-.jumbotron h2 {
+.jumbotron h1 {
   font-size: 50px;
   margin-bottom: 70px;
 }
 
-.jumbotron h2 span {
+.jumbotron h1 span {
   color:#bb8e00;
 }
 
@@ -249,7 +249,7 @@ figcaption{
 	}
 
 
-  .jumbotron h2 {
+  .jumbotron h1 {
     font-size: 36px;
     margin-bottom: 10px;
   }
@@ -294,7 +294,7 @@ figcaption{
 	}
 
 
-  .jumbotron h2 {
+  .jumbotron h1 {
     font-size: 36px;
     margin-bottom: 10px;
   }
